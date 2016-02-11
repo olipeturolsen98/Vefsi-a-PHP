@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1403982849
- * Date: 28.1.2016
- * Time: 11:39
- */
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -20,7 +14,7 @@
 <div class="row column">
 <br>
 <img class="thumbnail" src="http://placehold.it/550x350">
-<h5>Mike Mikerson</h5>
+<h5>Óli Olsen</h5>
 <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo.</p>
 </div>
 </div>
