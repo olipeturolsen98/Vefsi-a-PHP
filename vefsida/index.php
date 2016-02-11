@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -9,13 +10,14 @@
 <body>
 <div class="off-canvas-wrapper">
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+        <div "class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
             <div class="row column">
                 <br>
                 <img src="img\oli.jpg" class="thumbnail">
                 <h5>Óli Olsen</h5>
                 <p>Hérna er Mynda síðan mín.---></p>
             </div>
+
         </div>
         <div class="off-canvas-content" data-off-canvas-content>
             <div class="title-bar hide-for-large">
