@@ -12,7 +12,7 @@
         <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
             <div class="row column">
                 <br>
-                <img src="img/oli.jpg" class="thumbnail">
+                <img src="img\oli.jpg" class="thumbnail">
                 <h5>Óli Olsen</h5>
                 <p>Hérna er Mynda síðan mín.---></p>
             </div>
@@ -32,91 +32,91 @@
             </div>
             <div class="row small-up-2 medium-up-3 large-up-4">
                 <div class="column">
-                    <img class="thumbnail" src="glaz.png">
+                    <img class="thumbnail" src="img\glaz.png">
                     <h5>Glaz</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="fuze.png">
+                    <img class="thumbnail" src="img\fuze.png">
                     <h5>Fuze</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="kapkan.png">
+                    <img class="thumbnail" src="img\kapkan.png">
                     <h5>Kapkan</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="tachanka.png">
+                    <img class="thumbnail" src="img\tachanka.png">
                     <h5>Tachanka</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="jager.png">
+                    <img class="thumbnail" src="img\jager.png">
                     <h5>Jager</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="bandit.png">
+                    <img class="thumbnail" src="img\bandit.png">
                     <h5>Bandit</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="blitz.png">
+                    <img class="thumbnail" src="img\blitz.png">
                     <h5>Blitz</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="iq.png">
+                    <img class="thumbnail" src="img\iq.png">
                     <h5>IQ</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="montagne.png">
+                    <img class="thumbnail" src="img\montagne.png">
                     <h5>Montagne</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="twitch.png">
+                    <img class="thumbnail" src="img\twitch.png">
                     <h5>Twitch</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="doc.png">
+                    <img class="thumbnail" src="img\doc.png">
                     <h5>Doc</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="rook.png">
+                    <img class="thumbnail" src="img\rook.png">
                     <h5>Rook</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="thermite.png">
+                    <img class="thumbnail" src="img\thermite.png">
                     <h5>Thermite</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="castle.png">
+                    <img class="thumbnail" src="img\castle.png">
                     <h5>Castle</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="ash.png">
+                    <img class="thumbnail" src="img\ash.png">
                     <h5>Ash</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="pulse.png">
+                    <img class="thumbnail" src="img\pulse.png">
                     <h5>Pulse</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="sledge.png">
+                    <img class="thumbnail" src="img\sledge.png">
                     <h5>Sledge</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="mute.png">
+                    <img class="thumbnail" src="img\mute.png">
                     <h5>Mute</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="smoke.png">
+                    <img class="thumbnail" src="img\smoke.png">
                     <h5>Smoke</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="thatcher.png">
+                    <img class="thumbnail" src="img\thatcher.png">
                     <h5>Thatcher</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="buck.png">
+                    <img class="thumbnail" src="img\buck.png">
                     <h5>Buck</h5>
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="frost.png">
+                    <img class="thumbnail" src="img\frost.png">
                     <h5>Frost</h5>
                 </div>
             </div>
