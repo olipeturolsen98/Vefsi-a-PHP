@@ -1,118 +1,139 @@
-<?php
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Foundation | Welcome</title>
-<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mynda Vefsíða</title>
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 </head>
 <body>
 <div class="off-canvas-wrapper">
-<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-<div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
-<div class="row column">
-<br>
-<img class="thumbnail" src="http://placehold.it/550x350">
-<h5>Óli Olsen</h5>
-<p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo.</p>
-</div>
-</div>
-<div class="off-canvas-content" data-off-canvas-content>
-<div class="title-bar hide-for-large">
-<div class="title-bar-left">
-<button class="menu-icon" type="button" data-open="my-info"></button>
-<span class="title-bar-title">Mike Mikerson</span>
-</div>
-</div>
-<div class="callout primary">
-<div class="row column">
-<h1>Hello! This is the portfolio of a very witty person.</h1>
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla.</p>
-</div>
-</div>
-<div class="row small-up-2 medium-up-3 large-up-4">
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/550x550">
-<h5>My Site</h5>
-</div>
-</div>
-<hr>
-<div class="row">
-<div class="medium-6 columns">
-<h3>Contact Me</h3>
-<p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
-<ul class="menu">
-<li><a href="#">Dribbble</a></li>
-<li><a href="#">Facebook</a></li>
-<li><a href="#">Yo</a></li>
-</ul>
-</div>
-<div class="medium-6 columns">
-<label>Name
-<input type="text" placeholder="Name">
-</label>
-<label>Email
-<input type="text" placeholder="Email">
-</label>
-<label>
-Message
-<textarea placeholder="holla at a designerd"></textarea>
-</label>
-<button class="button expanded">Submit</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>
-$(document).foundation();
-    </script>
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+            <div class="row column">
+                <br>
+                <img src="img/oli.jpg" class="thumbnail">
+                <h5>Óli Olsen</h5>
+                <p>Hérna er Mynda síðan mín.---></p>
+            </div>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="title-bar hide-for-large">
+                <div class="title-bar-left">
+                    <button class="menu-icon" type="button" data-open="my-info"></button>
+                    <span class="title-bar-title">Óli Olsen</span>
+                </div>
+            </div>
+            <div class="callout primary">
+                <div class="row column">
+                    <h1>Rainbow six siege</h1>
+                    <p class="lead">Hérna fyrir neðan eru myndir fyrir alla operatorana í rainbow six tölvuleiknum.</p>
+                </div>
+            </div>
+            <div class="row small-up-2 medium-up-3 large-up-4">
+                <div class="column">
+                    <img class="thumbnail" src="glaz.png">
+                    <h5>Glaz</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="fuze.png">
+                    <h5>Fuze</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="kapkan.png">
+                    <h5>Kapkan</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="tachanka.png">
+                    <h5>Tachanka</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="jager.png">
+                    <h5>Jager</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="bandit.png">
+                    <h5>Bandit</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="blitz.png">
+                    <h5>Blitz</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="iq.png">
+                    <h5>IQ</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="montagne.png">
+                    <h5>Montagne</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="twitch.png">
+                    <h5>Twitch</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="doc.png">
+                    <h5>Doc</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="rook.png">
+                    <h5>Rook</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="thermite.png">
+                    <h5>Thermite</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="castle.png">
+                    <h5>Castle</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="ash.png">
+                    <h5>Ash</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="pulse.png">
+                    <h5>Pulse</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="sledge.png">
+                    <h5>Sledge</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="mute.png">
+                    <h5>Mute</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="smoke.png">
+                    <h5>Smoke</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="thatcher.png">
+                    <h5>Thatcher</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="buck.png">
+                    <h5>Buck</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="frost.png">
+                    <h5>Frost</h5>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="medium-6 columns">
+                    <h3>Um mig</h3>
+                    <p>:)</p>
+                    <ul class="menu">
+                        <li><a href="http://rainbow6.ubi.com/siege/en-us/home/index.aspx">Rainbow Six Siege</a></li>
+                    </ul>
+                </div>
+
+                <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+                <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+                <script>
+                    $(document).foundation();
+                </script>
 </body>
 </html>
