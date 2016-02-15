@@ -7,7 +7,7 @@
     <title>Mynda Vefsíða</title>
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 </head>
-<body>
+<body background="img\backround">
 <div class="off-canvas-wrapper">
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
         <div "class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
@@ -31,7 +31,9 @@
                     <h1>Rainbow six siege</h1>
                     <p class="lead">Hérna fyrir neðan eru myndir fyrir alla operatorana í rainbow six tölvuleiknum.</p>
                 </div>
+
             </div>
+
             <div class="row small-up-2 medium-up-3 large-up-4">
                 <div class="column">
                     <img class="thumbnail" src="img\glaz.png">
