@@ -7,7 +7,7 @@
     <title>Mynda Vefsíða</title>
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 </head>
-<body background="img\backround">
+<body>
 <div class="off-canvas-wrapper">
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
         <div "class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
