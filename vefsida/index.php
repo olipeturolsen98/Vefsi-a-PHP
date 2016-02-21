@@ -15,7 +15,7 @@
                 <br>
                 <img src="img\oli.jpg" class="thumbnail">
                 <h5>Óli Olsen</h5>
-                <p>Hérna er Mynda síðan mín.---></p>
+                <p>Hérna er Mynda síðan mín.</p>
             </div>
 
         </div>
