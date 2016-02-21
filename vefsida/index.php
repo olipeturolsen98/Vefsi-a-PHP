@@ -145,18 +145,18 @@
 <?php
     session_start(); 
  ?>
-<?php include'./includes/title.php';?>
+<?php include'./include/title.php';?>
 <!DOCTYPE html>
-<?php  include("./includes/head.php");?>
+<?php  include("./include/head.php");?>
 <body>
-    <?php include("./includes/header.php") ?>
+    <?php include("./include/header.php") ?>
 <div class="containall">
-    <?php include("./includes/menu.php") ?>
+    <?php include("./include/menu.php") ?>
     <main>
-        <?php include("./includes/images.php") ?>
+        <?php include("./include/images.php") ?>
     </main>
 </div>
-<?php include("./includes/footer.php") ?>
+<?php include("./include/footer.php") ?>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
                 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
                 <script>
