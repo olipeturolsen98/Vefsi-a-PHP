@@ -142,9 +142,7 @@
 </body>
 </html>
 -->
-<?php
-    session_start(); 
- ?>
+
 <?php include'./include/title.php';?>
 <!DOCTYPE html>
 <?php  include("./include/head.php");?>
