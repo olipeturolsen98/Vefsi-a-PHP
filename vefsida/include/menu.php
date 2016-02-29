@@ -13,3 +13,21 @@
 		</li>
 	</ul>
 </nav>
+
+
+
+
+<nav>
+	<h3>Sites:</h3>
+	<ul>
+		<li>
+			<a href="index.php" class="active" >Forsíða</a>
+		</li>
+		<li>
+			<a href="ummig.php" >Um mig</a>
+		</li>
+		<li>
+			<a href="login.php" >Login/Register</a>
+		</li>
+	</ul>
+</nav>
