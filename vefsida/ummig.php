@@ -11,8 +11,9 @@
     <main>
          <div class="row">
                 <div class="medium-6 columns">
-                    <h3>Um mig</h3>
-                    <p>:)</p>
+                    <h3>Hérna eru upplýsingar um mig og leikinn</h3>
+                    <img src="img\oli.jpg" class="thumbnail">
+                    <h5>Óli Olsen</h5>
                     <ul class="menu">
                         <li><a href="http://rainbow6.ubi.com/siege/en-us/home/index.aspx">Rainbow Six Siege</a></li>
                     </ul>
