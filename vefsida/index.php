@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Mynda Vefsíða</title>
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-</head>
+</head>HEAD ER KOMIÐ******
 <body>
 <div class="off-canvas-wrapper">
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
@@ -143,6 +143,9 @@
 </html>
 -->
 
+<?php
+    session_start(); 
+ ?>
 <?php include'./include/title.php';?>
 <!DOCTYPE html>
 <?php  include("./include/head.php");?>
