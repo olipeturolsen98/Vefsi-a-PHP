@@ -26,6 +26,7 @@ div, article, nav, header, aside, footer, body{
 main {
     height: inherit;
     background-color: rgba(200, 200, 200, .5);
+    background-image: url(../img/backround.jpg);
     background-attachment: fixed;
     order: 0;
     margin: 0;
@@ -162,7 +163,7 @@ footer{
         margin-left: 0;
         max-width: 100%;
     }
-    ._i_myndun{
+    .rainbow{
         max-width: 100%;
     }
     form{
