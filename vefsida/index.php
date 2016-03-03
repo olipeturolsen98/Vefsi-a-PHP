@@ -148,7 +148,7 @@
 <?php  include("./include/head.php");?>
 <body>
     <?php include("./include/header.php") ?>
-<div class="containall">
+
     <?php include("./include/menu.php") ?>
     <main>
         <?php include("./include/images.php") ?>
