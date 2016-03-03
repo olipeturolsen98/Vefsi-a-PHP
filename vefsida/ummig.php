@@ -6,10 +6,17 @@
 <?php  include("./include/head.php");?>
 <body>
     <?php include("./include/header.php") ?>
-<div class="containall">
+
     <?php include("./include/menu.php") ?>
     <main>
-        <?php include("./include/images.php") ?>
+         <div class="row">
+                <div class="medium-6 columns">
+                    <h3>Um mig</h3>
+                    <p>:)</p>
+                    <ul class="menu">
+                        <li><a href="http://rainbow6.ubi.com/siege/en-us/home/index.aspx">Rainbow Six Siege</a></li>
+                    </ul>
+                </div>
     </main>
 </div>
 <?php include("./include/footer.php") ?>
