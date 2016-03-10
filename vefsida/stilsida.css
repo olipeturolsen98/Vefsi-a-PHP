@@ -20,7 +20,7 @@ body {
 }
 div, article, nav, header, aside, footer, body{
 	box-sizing: border-box;
-    padding: 0;
+    padding: 20;
 }
 main {
     height: inherit;
