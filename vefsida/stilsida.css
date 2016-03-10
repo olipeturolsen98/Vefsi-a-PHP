@@ -14,7 +14,7 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: fixed;
-    margin: 0;
+    margin: 100;
     max-width: 100%;
     justify-content: center
 }
