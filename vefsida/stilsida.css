@@ -10,7 +10,7 @@ html {
     height: 100%
 }
 body {
-    background-image: url(../img/backround.jpg);
+    background-image: url("/img/backround.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: fixed;
@@ -20,11 +20,10 @@ body {
 }
 div, article, nav, header, aside, footer, body{
 	box-sizing: border-box;
-    padding: 20;
+    padding: 0;
 }
 main {
     height: inherit;
-    background-image: url(../img/backround.jpg);
     background-attachment: fixed;
     order: 0;
     margin: 0;
