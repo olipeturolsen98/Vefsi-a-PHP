@@ -21,6 +21,7 @@ body {
 div, article, nav, header, aside, footer, body{
 	box-sizing: border-box;
     padding: 0;
+    margin: 100;
 }
 main {
     height: inherit;
