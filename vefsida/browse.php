@@ -1,9 +1,5 @@
 <?php
     session_start(); 
-    if (isset($_POST['submit'])) { 
-        
-       require './include/process.php';
-   }
  ?>
 <?php include'./include/title.php';?>
 <!DOCTYPE html>
@@ -13,8 +9,7 @@
    <div class="containall">
     <?php include("./include/menu.php") ?>
     <main>
-        <?php include("./include/loginform.php") ?>
-        <?php include("./include/registerform.php") ?>
+       <?php include("./includes/browseimage.php") ?>
     </main>
 <?php include("./include/footer.php") ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

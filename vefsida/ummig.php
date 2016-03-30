@@ -6,7 +6,7 @@
 <?php  include("./include/head.php");?>
 <body>
     <?php include("./include/header.php") ?>
-
+    <div class="containall">
     <?php include("./include/menu.php") ?>
     <main>
          <div class="row">
@@ -19,9 +19,8 @@
                     </ul>
                 </div>
     </main>
-</div>
 <?php include("./include/footer.php") ?>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
                 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
                 <script>
                     $(document).foundation();

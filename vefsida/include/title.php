@@ -2,11 +2,9 @@
  $title = basename($_SERVER['SCRIPT_FILENAME'], '.php');
  $title = str_replace('_', ' ', $title);
  $title = ucwords($title);
- if ($title == "Ummig") 
- {
+ if ($title == "Ummig") {
  	$title = "Um mig";
  }
- if ($title == "Login") 
- {
+ if ($title == "Login") {
  	$title = "Login/Register";
  }
