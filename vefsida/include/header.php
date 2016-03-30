@@ -10,6 +10,6 @@
   ?>
 <header class="custom-wrapper pure-g" id="menu" style="background-image: url('<?php echo $imgpath; ?>')">
 	<div>
-		<a href="index.php" class="headerlink"><h1 class="rainbow"><i>Rainbow six sige</i></h1></a><br>
+		<a href="index.php" class="headerlink"><h1 class="rainbow"><i>Tölvuleikir</i></h1></a><br>
 	</div>
 </header>
