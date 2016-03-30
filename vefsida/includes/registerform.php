@@ -4,11 +4,10 @@ if (!empty($_POST["g-recaptcha-response"])){
 	$secret = "6LdLtxcTAAAAAPl7aQ1Oa7Sm7vAVAj5k8FKO2Rqg";
 	$remoteip = $_SERVER['REMOTE_ADDR'];
 	echo $response;
-} 
+}
+?>
 
-
-if (!isset($_POST['submit'])) { ?>
-<form method="post" action="">
+<form method="post" action="login.php">
     <label>Nýskrá</label>
         <fieldset>
            	<input type="text" name="username" placeholder="Notendanafn" required pattern="{5}" title="Notendanafn, minnst fimm stafir">
@@ -17,4 +16,3 @@ if (!isset($_POST['submit'])) { ?>
 	<div class="g-recaptcha" data-sitekey="6LdLtxcTAAAAAJrk7gzmEJmNJYoGyt9kpqBDm3_g"></div>
 	<button type="submit" class="pure-button pure-input-1 pure-button-primary">Skrá inn</button>
 </form>
-<?php } ?>

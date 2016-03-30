@@ -1,9 +1,5 @@
 <?php
     session_start(); 
-    if (isset($_POST['submit'])) { 
-        
-       require './include/process.php';
-   }
  ?>
 <?php include'./includes/title.php';?>
 <!DOCTYPE html>

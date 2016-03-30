@@ -9,7 +9,7 @@
 <div class="containall">
     <?php include("./includes/menu.php") ?>
     <main>
-        <p>Texti hér</p>
+    	<p>Texti hér</p>
     </main>
 </div>
 <?php include("./includes/footer.php") ?>
