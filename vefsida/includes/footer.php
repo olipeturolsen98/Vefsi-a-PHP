@@ -11,5 +11,5 @@
 		}
 		?>
 	</p>
-	<p>Guðni Natan Gunnarsson</p>
+	<p>Óli Pétur Olsen</p>
 </footer>
