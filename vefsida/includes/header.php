@@ -1,6 +1,6 @@
 <?php
 //Velur random mynd í header
-    $dir = 'indexZ';
+    $dir = 'img/header/';
     if (isset($_SESSION["files"]) == false || count($_SESSION["files"]) == 0) {
     	$_SESSION["files"] = glob("{$dir}*.{jpg,png,gif,jpeg}", GLOB_BRACE);
     }
