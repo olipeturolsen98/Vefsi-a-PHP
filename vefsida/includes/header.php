@@ -9,21 +9,21 @@
     unset($_SESSION["files"][0]);*/
 
       $images = [
-    ['file'    => 'indexZ/Call-Of-Duty-Zombies-Wallpaper-02',
+    ['file'    => 'Call-Of-Duty-Zombies-Wallpaper-02',
      'caption' => 'Mob of the dead'],
-    ['file'    => 'indexZ/Call-Of-Duty-Zombies-Wallpaper-05',
+    ['file'    => 'Call-Of-Duty-Zombies-Wallpaper-05',
      'caption' => 'Classic zombies'],
-    ['file'    => 'indexZ/Call-Of-Duty-Zombies-Wallpaper-07',
+    ['file'    => 'Call-Of-Duty-Zombies-Wallpaper-07',
      'caption' => 'Moon'],
-    ['file'    => 'indexZ/Call-Of-Duty-Zombies-Wallpaper-10',
+    ['file'    => 'Call-Of-Duty-Zombies-Wallpaper-10',
      'caption' => 'Perkaholic'],
-    ['file'    => 'indexZ/Call-Of-Duty-Zombies-Wallpaper-11',
+    ['file'    => 'Call-Of-Duty-Zombies-Wallpaper-11',
      'caption' => 'Buried'],
-    ['file'    => 'indexZ/Call-Of-Duty-Zombies-Wallpaper-12',
+    ['file'    => 'Call-Of-Duty-Zombies-Wallpaper-12',
      'caption' => 'die rise'],
     ];
     $i = rand(0, count($images)-1);
-    $selectedImage = "images/{$images[$i]['file']}.jpg";
+    $selectedImage = "indexZ/{$images[$i]['file']}.jpg";
     $caption = $images[$i]['caption'];
     if (file_exists($selectedImage) && is_readable($selectedImage)) {
     $imageSize = getimagesize($selectedImage);
