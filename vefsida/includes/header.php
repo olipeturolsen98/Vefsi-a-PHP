@@ -1,13 +1,4 @@
 <?php
-//Velur random mynd í header
-   /* $dir = 'img/header/';
-    if (isset($_SESSION["files"]) == false || count($_SESSION["files"]) == 0) {
-    	$_SESSION["files"] = glob("{$dir}*.{jpg,png,gif,jpeg}", GLOB_BRACE);
-    }
-    shuffle($_SESSION["files"]);
-    $imgpath = $_SESSION["files"][0];
-    unset($_SESSION["files"][0]);*/
-
       $images = [
     ['file'    => 'Call-Of-Duty-Zombies-Wallpaper-02',
      'caption' => 'Mob of the dead'],
