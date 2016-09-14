@@ -34,7 +34,7 @@
   ?>
 <header class="custom-wrapper pure-g" id="menu" style="background-image: url('<?php echo $selectedImage; ?>')">
 	<div>
-		<a href="index.php" class="headerlink"><h1 class="_i_myndun">Call of Duty Zombies</i></h1></a><br>
+		<a href="index.php" class="headerlink"><h1 class="_i_myndun"><<?php echo "caption"; ?></i></h1></a><br>
 	</div>
 	<div class="quote">
 		<p>-<?php echo $qoutes[0]; ?></p>
