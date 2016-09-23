@@ -80,7 +80,7 @@ header div{
 .quote{
     background: none;
     position:absolute;
-    left:0px;
+    right:0px;
     top:0px;
     height: 20vh;
     min-height: 20em;
