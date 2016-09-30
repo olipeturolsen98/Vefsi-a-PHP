@@ -28,7 +28,7 @@
 		<a href="index.php" class="headerlink"><h1 class="_i_myndun"><<?php echo "caption"; ?></i></h1></a><br>
 	</div>
     <div style="position: relative; left: 0; top: 0;">
-  <img src="imgs/Zombies.png/" style="position: absolute; top: 30px; left: 70px;"/>
+  <img src="imgs/Zombies.png" style="position: absolute; top: 30px; left: 70px;"/>
 </div>
 	<div class="quote">
 		<p>-<?php echo $qoutes[0]; ?></p>
