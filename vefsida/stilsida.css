@@ -10,13 +10,14 @@ html {
     height: 100%
 }
 body {
-    background-color: #1a1a1a;
-    background-image: url(../img/smallbackground.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: fixed;
+    /*background-color: #1a1a1a;*/
+    background-image: url(imgs/Zomb.jpg);
+    background-position:center;
+    background-repeat:;
+    background-size:fixed;
     margin: 0;
-    max-width: 100%;
+    /*max-width: 100%;
+    max-height: 100%;*/
     justify-content: center
 }
 div, article, nav, header, aside, footer, body{
@@ -77,18 +78,6 @@ header div{
     background-color: rgba(0,0,0,0.5);
   }
 }
-.quote{
-    background: none;
-    position:absolute;
-    right:0px;
-    top:0px;
-    height: 20vh;
-    min-height: 20em;
-    width: 100%;
-    text-align: center;
-    padding-top: 18vh;
-    padding-left: 115em;
-}
 nav{
     background-color: #DDD;
     height: 100%;
@@ -101,15 +90,34 @@ nav h3{
     padding: 0.5em 0 0.5em 1em;
     text-shadow: 0.1em 0.1em #AAA;
 }
-nav ul{
-    padding: 0;
-}
-nav ul li{
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-nav ul li a{
-    padding-left: 3em;
-    padding-right: 1em;
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li.last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.hover.not(.active) {
+    background-color: #111;
+}
 }
 a.current{
     background-color: #0f303e;
@@ -126,6 +134,13 @@ a.headerlink:hover, a.headerlink:visited{
 img{
 	max-width: 100%;
     max-height: 100%;
+}
+.zombies{
+    max-width: 50%;
+    max-height: 50%;
+}
+span.highlight {
+    background-color: yellow;
 }
 figure{
 	width: 100%;
