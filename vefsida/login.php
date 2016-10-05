@@ -9,6 +9,7 @@
     <?php include("./includes/menu.php") ?>
 <div class="containall">
     <main>
+    
         <?php include("./includes/loginform.php") ?>
         <?php include("./includes/registerform.php") ?>
     </main>

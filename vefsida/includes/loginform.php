@@ -1,8 +1,42 @@
-<form method="post" action="login.php">
-    <label>Innskrá</label>
-        <fieldset>
-           	<input type="text" name="username" placeholder="Notendanafn" required pattern="{5}" title="Notendanafn, minnst fimm stafir">
-        	<input type="password" name="password" placeholder="Lykilorð" required title="Lykilorð">
-		</fieldset>
-	<button type="submit" class="pure-button pure-input-1 pure-button-primary">Skrá inn</button>
+ <?php
+$error = '';
+if (isset($_POST['login'])) {
+    session_start();
+    $username = trim($_POST['username']);
+    $password = trim($_POST['pwd']);
+    // location of usernames and passwords
+    $userlist = 'C:/private/encrypted.csv';
+    // location to redirect on success
+    $redirect = 'http://localhost/phpsols/sessions/menu.php';
+    require_once '../includes/authenticate.php';
+}
+?>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+</head>
+
+<body>
+<?php
+if ($error) {
+    echo "<p>$error</p>";
+} elseif (isset($_GET['expired'])) { ?>
+    <p>Your session has expired. Please log in again.</p>
+<?php } ?>
+<form method="post" action="">
+    <p>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+    </p>
+    <p>
+        <label for="pwd">Password:</label>
+        <input type="password" name="pwd" id="pwd">
+    </p>
+    <p>
+        <input name="login" type="submit" value="Log in">
+    </p>
 </form>
+</body>
+</html>

@@ -90,6 +90,15 @@ nav h3{
     padding: 0.5em 0 0.5em 1em;
     text-shadow: 0.1em 0.1em #AAA;
 }
+label {
+            display:inline-block;
+            width:125px;
+            text-align:right;
+            padding-right:2px;
+        }
+        input{
+             margin-left:135px;
+        }
 ul {
     list-style-type: none;
     margin: 0;
