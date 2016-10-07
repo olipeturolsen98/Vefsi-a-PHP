@@ -1,30 +1,26 @@
  <?php
-$error = '';
-if (isset($_POST['login'])) {
-    session_start();
-    $username = trim($_POST['username']);
-    $password = trim($_POST['pwd']);
-    // location of usernames and passwords
-    $userlist = 'C:/private/encrypted.csv';
-    // location to redirect on success
-    $redirect = 'http://localhost/phpsols/sessions/menu.php';
-    require_once '../includes/authenticate.php';
-}
-?>
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Login</title>
-</head>
 
-<body>
-<?php
-if ($error) {
-    echo "<p>$error</p>";
-} elseif (isset($_GET['expired'])) { ?>
-    <p>Your session has expired. Please log in again.</p>
-<?php } ?>
+ if(isset($_POST['login']))
+ {
+     $uname = trim(strip_tags($_POST['username']));
+     $upass = trim(strip_tags($_POST['password']));
+
+     // Do login from Auth class
+     if($user->doLogin($uname,$upass))
+     {
+         // Sets session on user
+         $_SESSION["username"] = $uname;
+         // Redirect from Auth class
+         $user->redirect('upload.php');
+     }
+     else
+     {
+         // if username or password is wrong an error will happen
+         $error = "Wrong Details !";
+     }
+ }
+?>
+
 <form method="post" action="">
     <p>
         <label for="username">Username:</label>
@@ -32,11 +28,9 @@ if ($error) {
     </p>
     <p>
         <label for="pwd">Password:</label>
-        <input type="password" name="pwd" id="pwd">
+        <input type="password" name="password" id="pwd">
     </p>
     <p>
         <input name="login" type="submit" value="Log in">
     </p>
 </form>
-</body>
-</html>
