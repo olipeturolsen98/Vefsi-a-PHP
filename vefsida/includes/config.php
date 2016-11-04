@@ -6,7 +6,7 @@ ini_set('display_errors', 'On');
 class Database
 {
     private $host = "tsuts.tskoli.is";  // Db connection host (tsuts.tskoli.is) on tskola server
-    private $db_name = "1403982849_login"; // Db name
+    private $db_name = "1403982849_picturebase"; // Db name
     private $username = "1403982849"; // Username for db login (KENNITALA)
     private $password = "mypassword"; // Your dp password (DEFAULT: mypassword)
     public $conn;
