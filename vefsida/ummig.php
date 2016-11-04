@@ -2,7 +2,7 @@
 session_start();
 if(isset($_SESSION['username'])){
     echo "you logged in as </br>", $_SESSION['username'];
-    echo "<br/><a href='logout.php'>logout</a>";
+    
 }else{
 //your page stuff
 } 
