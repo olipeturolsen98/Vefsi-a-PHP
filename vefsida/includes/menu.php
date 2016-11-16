@@ -13,5 +13,8 @@
 		<li>
 			<a href="login.php" <?php if ($currentPage == "login.php") { echo "class=\"current\""; } ?>>Login/Register</a>
 		</li>
+		<li>
+			<a href="slideshow.php" <?php if ($currentPage == "slideshow.php") { echo "class=\"current\""; } ?>>Slideshow</a>
+		</li>
 	</ul>
 </nav>
