@@ -1,30 +1,34 @@
-<?php
+<html lang="en">
+<head>
+<title>Slideshow</title>
+ 
+<style>
+body {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+ 
+.fadein { 
+position:relative; height:442px; width:600px; margin:0 auto;
+background: url("slideshow-bg.png") repeat-x scroll left top transparent;
+padding: 10px;
+ }
+.fadein img { position:absolute; left:10px; top:10px; }
+</style>
 
-//include slideshows.php in your script
-include "slideshows.php";
-
-//read the query variables
-$control =  $_REQUEST['control'];
-$id = $_REQUEST['user_id'];
-
-//add 22 slides
-for ( $i=0; $i<22; $i++ ){
-    $slideshow[ 'slide' ][ $i ] = array ( 'url' => "imgs/Maps/Buried.png" );
-}
-
-if ( $id==658 ){
-
-    //make the controls the same as the $control variable for user #658
-    $slideshow[ 'control' ][ 'bar_visible' ] = $control;
-    
-}else{
-
-    //hide the controls for all other users
-    $slideshow[ 'control' ][ 'bar_visible' ] = "off";
-
-}
-                            
-//send the slideshow data to the slideshows.swf flash file
-Send_slideshow_Data ( $slideshow );
-
-?>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
+ 
+</head>
+<body>
+<div class="fadein">
+<img src="imgs/Maps/Origins.png">
+<img src="imgs/Maps/ShiNonuma.jpg">
+<img src="imgs/Maps/Verruckt.jpg">
+<img src="imgs/Maps/Nuketown.jpg">
+<img src="imgs/Maps/Revelations.jpg">
+</div>
+</body>
+</html>
